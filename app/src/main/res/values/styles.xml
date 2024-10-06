@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+    </style>
+
+    <string name="ui">UI</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="dark_mode_system">MODE_NIGHT_SYSTEM</string>
+
+    <string-array name="dark_mode_entries">
+        <item>System dark Mode</item>
+        <item>Light Mode</item>
+    </string-array>
+
+    <string-array name="dark_mode_values">
+        <item>MODE_NIGHT_SYSTEM</item>
+        <item>MODE_NIGHT_NO</item>
+        <item>MODE_NIGHT_YES</item>
+    </string-array>
+</resources>
